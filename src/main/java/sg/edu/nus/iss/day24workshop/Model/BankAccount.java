@@ -13,8 +13,9 @@ public class BankAccount implements Serializable{
 
     private int id;
     private float balance;
-    private String name;
+    private String fullName;
     private Boolean isActive;
     private Boolean isBlocked;
+    private String accountType;
 
 }
